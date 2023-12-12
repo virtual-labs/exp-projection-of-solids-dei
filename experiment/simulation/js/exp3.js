@@ -4,6 +4,7 @@
 const assemblyBox = document.querySelector("#assembly");
 const statementBox = document.querySelector("#exp1-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
+const stepNumber = document.querySelector(".step-number");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
 const comp2Step3 = document.querySelector("#compass2-step3");
@@ -45,6 +46,7 @@ const png11Step3 = document.querySelector("#png11-step3");
 const png12Step3 = document.querySelector("#png12-step3");
 const png13Step3 = document.querySelector("#png13-step3");
 const png14Step3 = document.querySelector("#png14-step3");
+const png15Step3 = document.querySelector("#png15-step3");
 const finalPng = document.querySelector("#finalPng-step3");
 
 
@@ -91,13 +93,13 @@ const nextBtnExp1 = document.querySelector("#nextToExpListFromExp1");
 
 // once dom loaded then trans1Step3 will get activated.
 
-addEventListener("DOMContentLoaded", () =>{
+addEventListener("DOMContentLoaded", () => {
     trans1Step3.style.visibility = "visible";
     arr1Step3.style.visibility = "visible";
     png1Step3.style.visibility = "visible";
 });
 
-trans1Step3.addEventListener("click",() => {
+trans1Step3.addEventListener("click", () => {
     trans1Step3.style.visibility = "hidden";
     arr1Step3.style.visibility = "hidden";
     dropMenu1Step3.style.visibility = "visible";
@@ -106,13 +108,13 @@ trans1Step3.addEventListener("click",() => {
 
 // dropmenu 1 changes
 
-dropMenu1Step3.addEventListener("change",(evt)=>{
+dropMenu1Step3.addEventListener("change", (evt) => {
     let selectedValue = dropMenu1Step3.value;
-    if(selectedValue === "3hPencil"){
+    if (selectedValue === "3hPencil") {
         dropMenu1Step3.style.visibility = "hidden";
         pencil1Step3.style.visibility = "visible";
         arr2Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select 3H Pencil");
     }
 });
@@ -123,7 +125,7 @@ pencil1Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png1Step3.style.visibility = "hidden";
     arr2Step3.style.visibility = "hidden";
-    
+
     gif1Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -131,33 +133,35 @@ pencil1Step3.addEventListener("click", (evt) => {
         png2Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select the compass and construct the circle such having a radius equal to the base of the given hexagonal prism.";
+        stepNumber.innerText = "4";
 
         arr4Step3.style.visibility = "visible";
         trans3Step3.style.visibility = "visible";
-    }, 14000)
+    }, 13550)
 });
 
-trans3Step3.addEventListener("click", ()=> {
+trans3Step3.addEventListener("click", () => {
     trans3Step3.style.visibility = "hidden";
     arr4Step3.style.visibility = "hidden";
     arr5Step3.style.visibility = "visible";
     comp1Step3.style.visibility = "visible";
 });
 
-comp1Step3.addEventListener("click", (evt)=>{
+comp1Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arr5Step3.style.visibility = "hidden";
     png2Step3.style.visibility = "hidden";
 
     gif2Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
+    setTimeout(() => {
         gif2Step3.style.visibility = "hidden";
         png3Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
         instruction1Step3.innerText = "Select 3H pencil and draw the circle's diameter.";
+        stepNumber.innerText = "5";
         trans4Step3.style.visibility = "visible";
-    }, 10500);
+    }, 9690);
 });
 
 trans4Step3.addEventListener("click", (evt) => {
@@ -167,13 +171,13 @@ trans4Step3.addEventListener("click", (evt) => {
     dropMenu3Step3.value = "default";
 });
 
-dropMenu3Step3.addEventListener("change",() => {
+dropMenu3Step3.addEventListener("change", () => {
     let selectedValue = dropMenu3Step3.value;
-    if(selectedValue === "3hPencil"){
+    if (selectedValue === "3hPencil") {
         dropMenu3Step3.style.visibility = "hidden";
         pencil3Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select 3H Pencil");
     }
 });
@@ -182,7 +186,7 @@ pencil3Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png3Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif3Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -190,33 +194,35 @@ pencil3Step3.addEventListener("click", (evt) => {
         png4Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select the compass, and mark off arcs equal to the radius of the circle.";
+        stepNumber.innerText = "6";
 
         arr4Step3.style.visibility = "visible";
         trans5Step3.style.visibility = "visible";
-    }, 10500)
+    }, 9870)
 });
 
-trans5Step3.addEventListener("click", ()=> {
+trans5Step3.addEventListener("click", () => {
     trans5Step3.style.visibility = "hidden";
     arr4Step3.style.visibility = "hidden";
     arr5Step3.style.visibility = "visible";
     comp2Step3.style.visibility = "visible";
 });
 
-comp2Step3.addEventListener("click", (evt)=>{
+comp2Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arr5Step3.style.visibility = "hidden";
     png4Step3.style.visibility = "hidden";
 
     gif4Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
+    setTimeout(() => {
         gif4Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
         instruction1Step3.innerText = " Select H pencil, and join all the arcs to obtain the desired hexagon. Label its points in top view as a,b,c,d,e,f and 1,2,3,4,5,6";
+        stepNumber.innerText = "7";
         trans6Step3.style.visibility = "visible";
-    }, 20000);
+    }, 19460);
 });
 
 trans6Step3.addEventListener("click", (evt) => {
@@ -226,13 +232,13 @@ trans6Step3.addEventListener("click", (evt) => {
     dropMenu4Step3.value = "default";
 });
 
-dropMenu4Step3.addEventListener("change",() => {
+dropMenu4Step3.addEventListener("change", () => {
     let selectedValue = dropMenu4Step3.value;
-    if(selectedValue === "hPencil"){
+    if (selectedValue === "hPencil") {
         dropMenu4Step3.style.visibility = "hidden";
         pencil4Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select H Pencil");
     }
 });
@@ -241,7 +247,7 @@ pencil4Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png5Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif5Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -249,10 +255,11 @@ pencil4Step3.addEventListener("click", (evt) => {
         png6Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select 3H pencil and project all the points in front view.";
+        stepNumber.innerText = "8";
 
         arr1Step3.style.visibility = "visible";
         trans7Step3.style.visibility = "visible";
-    }, 64000)
+    }, 62630)
 });
 
 trans7Step3.addEventListener("click", (evt) => {
@@ -262,13 +269,13 @@ trans7Step3.addEventListener("click", (evt) => {
     dropMenu5Step3.value = "default";
 });
 
-dropMenu5Step3.addEventListener("change",() => {
+dropMenu5Step3.addEventListener("change", () => {
     let selectedValue = dropMenu5Step3.value;
-    if(selectedValue === "3hPencil"){
+    if (selectedValue === "3hPencil") {
         dropMenu5Step3.style.visibility = "hidden";
         pencil5Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select 3H Pencil");
     }
 });
@@ -277,7 +284,7 @@ pencil5Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png6Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif6Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -285,16 +292,17 @@ pencil5Step3.addEventListener("click", (evt) => {
         png7Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Now, join these projections and further project parallel lines from these points to form the axis of the hexagonal prism ( parallel to VP). Join all the points on the axis and label them as 1',2',3', a',b',c' and so on.";
+        stepNumber.innerText = "9";
         arr3Step3.style.visibility = "visible";
         pencil6Step3.style.visibility = "visible";
-    }, 24500)
+    }, 23700)
 });
 
 pencil6Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png7Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif7Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -302,16 +310,17 @@ pencil6Step3.addEventListener("click", (evt) => {
         png8Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Now, draw a line inclined at 45° to the HP.";
+        stepNumber.innerText = "10";
         arr3Step3.style.visibility = "visible";
         pencil7Step3.style.visibility = "visible";
-    }, 37000)
+    }, 37060)
 });
 
 pencil7Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png8Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif8Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -319,16 +328,17 @@ pencil7Step3.addEventListener("click", (evt) => {
         png9Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Draw another line perpendicular to the line inclined at 45° having the hexagonal prism's base dimension.";
+        stepNumber.innerText = "11";
         arr3Step3.style.visibility = "visible";
         pencil8Step3.style.visibility = "visible";
-    }, 18000)
+    }, 17300)
 });
 
 pencil8Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png9Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif9Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -336,9 +346,10 @@ pencil8Step3.addEventListener("click", (evt) => {
         png10Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select H pencil and draw the sides of hexagonal prism inclined at 45° to HP. Label its corners.";
+        stepNumber.innerText = "12";
         arr1Step3.style.visibility = "visible";
         trans8Step3.style.visibility = "visible";
-    }, 17500)
+    }, 15330)
 });
 
 trans8Step3.addEventListener("click", (evt) => {
@@ -348,13 +359,13 @@ trans8Step3.addEventListener("click", (evt) => {
     dropMenu6Step3.value = "default";
 });
 
-dropMenu6Step3.addEventListener("change",() => {
+dropMenu6Step3.addEventListener("change", () => {
     let selectedValue = dropMenu6Step3.value;
-    if(selectedValue === "hPencil"){
+    if (selectedValue === "hPencil") {
         dropMenu6Step3.style.visibility = "hidden";
         pencil9Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select H Pencil");
     }
 });
@@ -363,17 +374,18 @@ pencil9Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png10Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif10Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
         gif10Step3.style.visibility = "hidden";
         png11Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Project the points of the prism which is inclined at 45° in the top view.";
+        instruction1Step3.innerText = "Select 3h pencil and Project the points of the prism which is inclined at 45° in the top view.";
+        stepNumber.innerText = "13";
         arr1Step3.style.visibility = "visible";
         trans9Step3.style.visibility = "visible";
-    }, 53500)
+    }, 54670)
 });
 
 trans9Step3.addEventListener("click", (evt) => {
@@ -383,13 +395,13 @@ trans9Step3.addEventListener("click", (evt) => {
     dropMenu7Step3.value = "default";
 });
 
-dropMenu7Step3.addEventListener("change",() => {
+dropMenu7Step3.addEventListener("change", () => {
     let selectedValue = dropMenu7Step3.value;
-    if(selectedValue === "3hPencil"){
+    if (selectedValue === "3hPencil") {
         dropMenu7Step3.style.visibility = "hidden";
         pencil10Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select 3H Pencil");
     }
 });
@@ -398,7 +410,7 @@ pencil10Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png11Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif11Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -406,16 +418,17 @@ pencil10Step3.addEventListener("click", (evt) => {
         png12Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Similarly, project the points of the prism's base in top view.";
+        stepNumber.innerText = "14";
         arr3Step3.style.visibility = "visible";
         pencil11Step3.style.visibility = "visible";
-    }, 62500)
+    }, 62550)
 });
 
 pencil11Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     png12Step3.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-    
+
     gif12Step3.style.visibility = "visible";
 
     setTimeout((evt) => {
@@ -423,9 +436,10 @@ pencil11Step3.addEventListener("click", (evt) => {
         png13Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select H pencil and join the points in the top view and label them as a,b,c,1,2,3 and so on.";
+        stepNumber.innerText = "15";
         arr1Step3.style.visibility = "visible";
         trans10Step3.style.visibility = "visible";
-    }, 50500)
+    }, 48840)
 });
 
 trans10Step3.addEventListener("click", (evt) => {
@@ -435,13 +449,13 @@ trans10Step3.addEventListener("click", (evt) => {
     dropMenu8Step3.value = "default";
 });
 
-dropMenu8Step3.addEventListener("change",() => {
+dropMenu8Step3.addEventListener("change", () => {
     let selectedValue = dropMenu8Step3.value;
-    if(selectedValue === "hPencil"){
+    if (selectedValue === "hPencil") {
         dropMenu8Step3.style.visibility = "hidden";
         pencil12Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
-    }else{
+    } else {
         alert("Please select H Pencil");
     }
 });
@@ -456,12 +470,17 @@ pencil12Step3.addEventListener("click", (evt) => {
     setTimeout(() => {
         gif13Step3.style.visibility = "hidden";
         png14Step3.style.visibility = "visible";
-        }, 12000);
+    }, 162860);
+
+    setTimeout(() => {
+        png14Step3.style.visibility = "hidden";
+        png15Step3.style.visibility = "visible";
+    }, 164860);
 
     setTimeout(() => {
         nextToFinalPng.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-        }, 14500)
+    }, 167360)
 });
 
 nextToFinalPng.addEventListener("click", (evt) => {
@@ -474,7 +493,7 @@ nextToFinalPng.addEventListener("click", (evt) => {
     finalPng.style.visibility = "visible";
     finalPng.style.top = "80px";
 
-    setTimeout(()=> {
+    setTimeout(() => {
         nextBtnExp1.style.visibility = "visible";
         arrNext.style.visibility = "visible";
     }, 1500);
