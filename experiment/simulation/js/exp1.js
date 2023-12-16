@@ -4,6 +4,7 @@
 const assemblyBox = document.querySelector("#assembly");
 const statementBox = document.querySelector("#exp1-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
+const stepNumber = document.querySelector(".step-number");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
 
@@ -106,10 +107,11 @@ pencil1Step3.addEventListener("click", (evt) => {
         png2Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Now, select H pencil and draw the cube with the given dimensions and Label the corners of the cube as a,b,c,d and 1,2,3,4 in top view";
+        stepNumber.innerText = "4";
 
         arr1Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
-    }, 13500)
+    }, 11660)
 });
 
 trans2Step3.addEventListener("click", ()=> {
@@ -142,10 +144,11 @@ pencil2Step3.addEventListener("click", (evt) => {
     png3Step3.style.visibility = "visible";
     gif2Step3.style.visibility = "hidden";
     instruction1Step3.innerText = "Select 3H pencil and project the corners of the cube to meet the XY line and label them as a',b',c',d'.";
+    stepNumber.innerText = "5";
 
     arr4Step3.style.visibility = "visible";
     trans3Step3.style.visibility = "visible";
-    }, 37750);
+    }, 39300);
 });
 
 trans3Step3.addEventListener("click", ()=> {
@@ -177,10 +180,11 @@ pencil3Step3.addEventListener("click", (evt) => {
     png4Step3.style.visibility = "visible";
     gif3Step3.style.visibility = "hidden";
     instruction1Step3.innerText = "Now, select H pencil, join all the projections a',b',c' and d'.";
+    stepNumber.innerText = "6";
 
     arr4Step3.style.visibility = "visible";
     trans4Step3.style.visibility = "visible";
-    }, 24750);
+    }, 25500);
 });
 
 trans4Step3.addEventListener("click", ()=> {
@@ -212,10 +216,11 @@ pencil4Step3.addEventListener("click", (evt) => {
         gif4Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
         instruction1Step3.innerText = "Draw vertical lines from each of the projections having the same dimension as the cube.";
+        stepNumber.innerText = "7";
     
         arr6Step3.style.visibility = "visible";
         pencil5Step3.style.visibility = "visible";
-        }, 8000);
+        }, 7500);
 
 });
 
@@ -230,10 +235,11 @@ pencil5Step3.addEventListener("click", (evt) => {
         gif5Step3.style.visibility = "hidden";
         png6Step3.style.visibility = "visible";
         instruction1Step3.innerText = "Join the vertical lines to obtain the front view of the cube in VP.";
+        stepNumber.innerText = "8";
     
         arr7Step3.style.visibility = "visible";
         pencil6Step3.style.visibility = "visible";
-        }, 22000);
+        }, 20400);
 
 });
 
@@ -247,17 +253,17 @@ pencil6Step3.addEventListener("click", (evt) => {
     setTimeout(() => {
         gif6Step3.style.visibility = "hidden";
         png7Step3.style.visibility = "visible";
-        }, 12000);
+        }, 7500);
 
     setTimeout(() => {
         png7Step3.style.visibility = "hidden";
         png8Step3.style.visibility = "visible";
-        }, 14000);
+        }, 9500);
 
     setTimeout(() => {
         nextToFinalPng.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-        }, 16500)
+        }, 12000)
 });
 
 nextToFinalPng.addEventListener("click", (evt) => {
