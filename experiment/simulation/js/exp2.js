@@ -4,6 +4,7 @@
 const assemblyBox = document.querySelector("#assembly");
 const statementBox = document.querySelector("#exp1-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
+const stepNumber = document.querySelector(".step-number");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
 
@@ -112,10 +113,11 @@ pencil1Step3.addEventListener("click", (evt) => {
         png2Step3.style.visibility = "visible";
 
         instruction1Step3.innerText = "Select H pencil and draw the triangular prism with the given dimensions in the side view. Label the corners of the triangular prism as a\", b\",c\" and 1\",2\", 3\".";
+        stepNumber.innerText = "4";
 
         arr1Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
-    }, 25000)
+    }, 23520)
 });
 
 trans2Step3.addEventListener("click", ()=> {
@@ -148,10 +150,11 @@ pencil2Step3.addEventListener("click", (evt) => {
     png3Step3.style.visibility = "visible";
     gif2Step3.style.visibility = "hidden";
     instruction1Step3.innerText = "Select 3H pencil and draw the projections of the triangular prism to meet the XY line. Join these projections with the ZY line.";
+    stepNumber.innerText = "5";
 
     arr4Step3.style.visibility = "visible";
     trans3Step3.style.visibility = "visible";
-    }, 27500);
+    }, 27860);
 });
 
 trans3Step3.addEventListener("click", ()=> {
@@ -183,10 +186,11 @@ pencil3Step3.addEventListener("click", (evt) => {
     png4Step3.style.visibility = "visible";
     gif3Step3.style.visibility = "hidden";
     instruction1Step3.innerText = "Now, project these points horizontally in the top view.";
+    stepNumber.innerText = "6";
 
     arr5Step3.style.visibility = "visible";
     pencil4Step3.style.visibility = "visible";
-    }, 36000);
+    }, 36800);
 
 });
 
@@ -201,10 +205,11 @@ pencil4Step3.addEventListener("click", (evt) => {
         png5Step3.style.visibility = "visible";
         gif4Step3.style.visibility = "hidden";
         instruction1Step3.innerText = "Select H pencil and draw the rectangular face of the triangular prism in the top view HP.  Label its corners as 1,2,3 and a,b,c";
+        stepNumber.innerText = "7";
 
         arr4Step3.style.visibility = "visible";
         trans5Step3.style.visibility = "visible";
-        }, 23500);
+        }, 22000);
 
 });
 
@@ -238,10 +243,11 @@ pencil5Step3.addEventListener("click", (evt) => {
         png6Step3.style.visibility = "visible";
         gif5Step3.style.visibility = "hidden";
         instruction1Step3.innerText = "Select 3H pencil and project the top view and side view of the triangular prism in the front view.";
+        stepNumber.innerText = "8";
 
         arr4Step3.style.visibility = "visible";
         trans6Step3.style.visibility = "visible";
-        }, 37000);
+        }, 37860);
 
 });
 
@@ -276,7 +282,7 @@ pencil6Step3.addEventListener("click", (evt) => {
     
         arr7Step3.style.visibility = "visible";
         pencil7Step3.style.visibility = "visible";
-        }, 16500);
+        }, 14700);
 
 });
 
@@ -292,10 +298,11 @@ pencil7Step3.addEventListener("click", (evt) => {
     png8Step3.style.visibility = "visible";
     gif7Step3.style.visibility = "hidden";
     instruction1Step3.innerText = "Select H pencil and join these projections to obtain the rectangular face of the triangular prism in the front view VP.";
+    stepNumber.innerText = "9";
 
     arr4Step3.style.visibility = "visible";
     trans4Step3.style.visibility = "visible";
-    }, 14500);
+    }, 12370);
 
 });
 
@@ -327,17 +334,17 @@ pencil8Step3.addEventListener("click", (evt) => {
     setTimeout(() => {
         gif8Step3.style.visibility = "hidden";
         png9Step3.style.visibility = "visible";
-        }, 30000);
+        }, 29370);
 
     setTimeout(() => {
         png9Step3.style.visibility = "hidden";
         png10Step3.style.visibility = "visible";
-        }, 32000);
+        }, 31370);
 
     setTimeout(() => {
         nextToFinalPng.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-        }, 34000)
+        }, 33570)
 });
 
 nextToFinalPng.addEventListener("click", (evt) => {
