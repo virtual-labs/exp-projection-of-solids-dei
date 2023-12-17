@@ -22,4 +22,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Sajal Satsangi | Faculty of Enfineering | Mechanical Engineering | Dayalbagh Educational Institute | sajalsatsangi2004@gmail.com
 2 | Shyamendra Tomar | Faculty of Engineering | Agriculture Engineering | Dayalbagh Educational Institute | shyamendratomar736@gmail.com
-2 | Amol Satsangi | Faculty of Engineering | Electrical Engineering | Dayalbagh Educational Institute | amolsatsangi02@gmail.com
+3 | Amol Satsangi | Faculty of Engineering | Electrical Engineering | Dayalbagh Educational Institute | amolsatsangi02@gmail.com
