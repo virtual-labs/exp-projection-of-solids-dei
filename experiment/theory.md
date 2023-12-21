@@ -9,7 +9,7 @@ A 3D object having length, breadth and thickness, and bounded by surfaces which 
 It is defined as a solid bounded by planes (also known as faces). When all faces are equal and regular, it is said to be regular polyhedron. When faces of polyhedron are not equal, they may be classified under the category of Prism and Pyramid.
 The plural of polyhedron is known as polyhedra.
 
-#### There are 5 regular polyhedron and they are defined as stated below:
+##### There are 5 regular polyhedron and they are defined as stated below:
 **i. Tetrahedron –** Four equilateral triangle faces.<br><br>
 <img src="images/1. Tetrahedron.png" alt="Tetrahedron" height = 260><br>
 **ii. Cube / Hexahedron -** Six equal square faces.<br><br>
@@ -21,7 +21,7 @@ The plural of polyhedron is known as polyhedra.
 **v. Icosahedron –** Twenty equal equilateral triangular faces.<br><br>
 <img src="images/5. Icosahedron.png" alt="Icosahedron" height = 250><br>
 
-#### The other polyhedron can be defined as stated below:
+##### The other polyhedron can be defined as stated below:
 **i. Prism –** A polyhedron formed by two equal parallel regular polygons, and faces connected by side faces which are either rectangular or parallelograms.<br>
 A right and regular prim has its axis perpendicular to the bases and all its faces are equal rectangle.<br><br>
 <img src="images/6. Prisms.png" alt="Prisms" height = 240><br>
