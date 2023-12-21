@@ -2,7 +2,7 @@
 
 Understanding solids and their projections is crucial in engineering as it forms the foundation for designing and visualising various structures and components. The principles of solid geometry play a vital role in architectural planning and mechanical designing. Overall, the knowledge gained helps in implementation of designs in real-world applications. 
 
-### Solids
+#### Solids
 A 3D object having length, breadth and thickness, and bounded by surfaces which may be either plane or curved or both is known as a solid. Solids can be classified under two main groups. 
 
 #### 1. Polyhedron
@@ -11,7 +11,7 @@ The plural of polyhedron is known as polyhedra.
 
 #### There are 5 regular polyhedron and they are defined as stated below:
 **i. Tetrahedron –** Four equilateral triangle faces.<br><br>
-<img src="images/1. Tetrahedron.png" alt="Tetrahedron" height = 250><br>
+<img src="images/1. Tetrahedron.png" alt="Tetrahedron" height = 260><br>
 **ii. Cube / Hexahedron -** Six equal square faces.<br><br>
 <img src="images/2. Cube (Hexahedron).png" alt="Cube" height = 240><br>
 **iii. Octahedron –** Eight equal triangular faces.<br><br>
