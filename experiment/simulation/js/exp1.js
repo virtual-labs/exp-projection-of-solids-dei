@@ -106,7 +106,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select H pencil and draw the cube with the given dimensions and Label the corners of the cube as a,b,c,d and 1,2,3,4 in top view";
+        instruction1Step3.innerText = "Now, select H pencil and draw the cube with the given dimensions (70mm) and Label the corners of the cube as a,b,c,d and 1,2,3,4 in top view";
         stepNumber.innerText = "4";
 
         arr1Step3.style.visibility = "visible";
@@ -148,7 +148,7 @@ pencil2Step3.addEventListener("click", (evt) => {
 
     arr4Step3.style.visibility = "visible";
     trans3Step3.style.visibility = "visible";
-    }, 39300);
+    }, 42000);
 });
 
 trans3Step3.addEventListener("click", ()=> {

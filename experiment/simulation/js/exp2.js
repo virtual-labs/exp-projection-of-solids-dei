@@ -112,12 +112,12 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Select H pencil and draw the triangular prism with the given dimensions in the side view. Label the corners of the triangular prism as a\", b\",c\" and 1\",2\", 3\".";
+        instruction1Step3.innerText = "Select H pencil and draw the triange of side of dimension (80mm) in the side view. Label the corners of the triange as a\", b\",c\" and 1\",2\", 3\".";
         stepNumber.innerText = "4";
 
         arr1Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
-    }, 23520)
+    }, 23500)
 });
 
 trans2Step3.addEventListener("click", ()=> {
@@ -154,7 +154,7 @@ pencil2Step3.addEventListener("click", (evt) => {
 
     arr4Step3.style.visibility = "visible";
     trans3Step3.style.visibility = "visible";
-    }, 27860);
+    }, 30460);
 });
 
 trans3Step3.addEventListener("click", ()=> {

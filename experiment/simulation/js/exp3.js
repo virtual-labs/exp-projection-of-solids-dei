@@ -132,7 +132,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Select the compass and construct the circle such having a radius equal to the base of the given hexagonal prism.";
+        instruction1Step3.innerText = "Select the compass and construct the circle such having a radius equal to the side (say 50mm) of the given hexagonal prism.";
         stepNumber.innerText = "4";
 
         arr4Step3.style.visibility = "visible";
@@ -161,7 +161,7 @@ comp1Step3.addEventListener("click", (evt) => {
         instruction1Step3.innerText = "Select 3H pencil and draw the circle's diameter.";
         stepNumber.innerText = "5";
         trans4Step3.style.visibility = "visible";
-    }, 9690);
+    }, 10590);
 });
 
 trans4Step3.addEventListener("click", (evt) => {
