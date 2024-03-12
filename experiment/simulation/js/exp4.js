@@ -183,7 +183,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Select the compass and draw circle of 80mm diameter";
+        instruction1Step3.innerText = "Select the compass and draw circle of given diameter (80mm).";
         stepNumber.innerText = "4";
 
         arr4Step3.style.visibility = "visible";
@@ -212,7 +212,7 @@ comp1Step3.addEventListener("click", (evt) => {
         instruction1Step3.innerText = "Select 3H pencil and divide the circle into 8 equal parts and name them as a, b, c, e, f, g, h and i. ";
         stepNumber.innerText = "5";
         trans4Step3.style.visibility = "visible";
-    }, 8640);
+    }, 11340);
 });
 
 trans4Step3.addEventListener("click", (evt) => {
