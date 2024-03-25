@@ -8,6 +8,10 @@ nav {
     padding: 0 10px;
   }
   
+  body {
+    font-family: "Arial", sans-serif;
+}
+
   .redline {
     height: 7px;
     width: full;
