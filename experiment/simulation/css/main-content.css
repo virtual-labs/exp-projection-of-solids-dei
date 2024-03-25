@@ -9,6 +9,9 @@ main{
     justify-content: center;
 }
 
+body {
+    font-family: "Arial", sans-serif;
+}
 
 .simulation-container{
     background-color: rgba(220,229,236,255);

@@ -2,6 +2,10 @@
     visibility: hidden;
 }
 
+body {
+    font-family: "Arial", sans-serif;
+}
+
 /* IMAGES  */
 
 .starter-png1{
