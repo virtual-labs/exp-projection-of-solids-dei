@@ -1,0 +1,145 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the diameter of the circle representing the top view of a cone with an 80 mm base diameter?",
+      "answers": {
+        "a": "40 mm",
+        "b": "80 mm",
+        "c": "160 mm",
+        "d": "100 mm"
+      },
+      "explanations": {
+        "b": "The top view of a cone shows its base as a circle with the same diameter as the actual base. Since the base diameter is 80 mm, the top view circle will also have a diameter of 80 mm."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following solids has an equal and regular rectangle as its faces?",
+      "answers": {
+        "a": "Prism",
+        "b": "Pyramid",
+        "c": "Cube",
+        "d": "Icosahedron"
+      },
+      "explanations": {
+        "a": "A prism has identical and regular rectangular faces along its length. The lateral faces of a prism are parallelograms or rectangles that are congruent and parallel to each other."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a triangular prism resting on its base on HP, what is the shape of its base in the top view?",
+      "answers": {
+        "a": "Circle",
+        "b": "Square",
+        "c": "Rectangle",
+        "d": "Triangle"
+      },
+      "explanations": {
+        "d": "When a triangular prism is viewed from the top (perpendicular to HP), the base appears in its true shape, which is a triangle. The top view shows the actual form of the base."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the shape of the base of a regular tetrahedron?",
+      "answers": {
+        "a": "Triangle",
+        "b": "Square",
+        "c": "Pentagon",
+        "d": "Hexagon"
+      },
+      "explanations": {
+        "a": "A regular tetrahedron has all four faces as equilateral triangles, including the base. It is the simplest polyhedron with triangular faces meeting at each vertex."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a hexagonal prism, if the axis is inclined at 45° to the HP, what is the shape of its base in the top view?",
+      "answers": {
+        "a": "Rectangle",
+        "b": "Hexagon",
+        "c": "Triangle",
+        "d": "Circle"
+      },
+      "explanations": {
+        "b": "The top view always shows the true shape of the base regardless of the inclination of the axis. For a hexagonal prism, the base remains hexagonal in the top view even when the axis is inclined."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the axis of a right solid when it is inclined to both HP and VP?",
+      "answers": {
+        "a": "Perpendicular to HP and VP",
+        "b": "Inclined to HP and parallel to VP",
+        "c": "Inclined to both HP and VP",
+        "d": "Parallel to both HP and VP"
+      },
+      "explanations": {
+        "c": "When a solid is positioned such that it is tilted with respect to both reference planes (HP and VP), its axis is inclined to both planes, creating oblique projections on both views."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the procedure for drawing a cone, what does the circle in the top view represent?",
+      "answers": {
+        "a": "Base of the cone",
+        "b": "Apex of the cone",
+        "c": "Slant height of the cone",
+        "d": "Diameter of the cone"
+      },
+      "explanations": {
+        "a": "The circle in the top view of a cone represents the base of the cone. This circular outline shows the boundary of the cone's base when viewed from above."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the axis of a right cone when it is parallel to both HP and VP?",
+      "answers": {
+        "a": "Perpendicular to the base",
+        "b": "Inclined to the base",
+        "c": "Parallel to the base",
+        "d": "Parallel to both HP and VP"
+      },
+      "explanations": {
+        "d": "When a cone's axis is positioned parallel to both reference planes (HP and VP), it means the axis lies horizontally in space, maintaining equal distance from both planes."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which type of projection involves a solid resting on one of its faces in HP with its vertical faces equally inclined to VP?",
+      "answers": {
+        "a": "First-angle projection",
+        "b": "Third-angle projection",
+        "c": "Axonometric projection",
+        "d": "Isometric projection"
+      },
+      "explanations": {
+        "c": "Axonometric projection allows multiple faces of a 3D object to be shown simultaneously in a single view. When vertical faces are equally inclined to VP, it creates this type of pictorial representation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the position of the axis in a cone resting on one of its generators on HP?",
+      "answers": {
+        "a": "Perpendicular to HP and parallel to VP",
+        "b": "Perpendicular to VP and parallel to HP",
+        "c": "Inclined to both HP and VP",
+        "d": "Parallel to both HP and VP"
+      },
+      "explanations": {
+        "c": "When a cone rests on one of its generators (slant lines from apex to base circumference), the axis of the cone becomes slanted with respect to both the horizontal plane (HP) and vertical plane (VP)."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}

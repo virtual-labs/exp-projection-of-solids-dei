@@ -1,0 +1,59 @@
+
+/home/runner/work/exp-projection-of-solids-dei/exp-projection-of-solids-dei/experiment/simulation/js/exp1.js
+    9:7   warning  'comp1Step3' is assigned a value but never used      no-unused-vars
+   22:7   warning  'dropMenu5Step3' is assigned a value but never used  no-unused-vars
+   49:7   warning  'trans5Step3' is assigned a value but never used     no-unused-vars
+   59:7   warning  'arr8Step3' is assigned a value but never used       no-unused-vars
+   85:43  warning  'evt' is defined but never used                      no-unused-vars
+  105:17  warning  'evt' is defined but never used                      no-unused-vars
+
+/home/runner/work/exp-projection-of-solids-dei/exp-projection-of-solids-dei/experiment/simulation/js/exp2.js
+    9:7   warning  'comp1Step3' is assigned a value but never used  no-unused-vars
+   64:7   warning  'arr6Step3' is assigned a value but never used   no-unused-vars
+   66:7   warning  'arr8Step3' is assigned a value but never used   no-unused-vars
+   91:43  warning  'evt' is defined but never used                  no-unused-vars
+  111:17  warning  'evt' is defined but never used                  no-unused-vars
+
+/home/runner/work/exp-projection-of-solids-dei/exp-projection-of-solids-dei/experiment/simulation/js/exp3.js
+   13:7   warning  'pencil2Step3' is assigned a value but never used    no-unused-vars
+   26:7   warning  'dropMenu2Step3' is assigned a value but never used  no-unused-vars
+   70:7   warning  'trans2Step3' is assigned a value but never used     no-unused-vars
+  111:44  warning  'evt' is defined but never used                      no-unused-vars
+  131:17  warning  'evt' is defined but never used                      no-unused-vars
+  192:17  warning  'evt' is defined but never used                      no-unused-vars
+  253:17  warning  'evt' is defined but never used                      no-unused-vars
+  290:17  warning  'evt' is defined but never used                      no-unused-vars
+  308:17  warning  'evt' is defined but never used                      no-unused-vars
+  326:17  warning  'evt' is defined but never used                      no-unused-vars
+  344:17  warning  'evt' is defined but never used                      no-unused-vars
+  380:17  warning  'evt' is defined but never used                      no-unused-vars
+  416:17  warning  'evt' is defined but never used                      no-unused-vars
+  434:17  warning  'evt' is defined but never used                      no-unused-vars
+
+/home/runner/work/exp-projection-of-solids-dei/exp-projection-of-solids-dei/experiment/simulation/js/exp4.js
+   15:7   warning  'pencil2Step3' is assigned a value but never used    no-unused-vars
+   37:7   warning  'dropMenu2Step3' is assigned a value but never used  no-unused-vars
+  111:7   warning  'trans2Step3' is assigned a value but never used     no-unused-vars
+  162:44  warning  'evt' is defined but never used                      no-unused-vars
+  182:17  warning  'evt' is defined but never used                      no-unused-vars
+  243:17  warning  'evt' is defined but never used                      no-unused-vars
+  262:17  warning  'evt' is defined but never used                      no-unused-vars
+  299:17  warning  'evt' is defined but never used                      no-unused-vars
+  336:17  warning  'evt' is defined but never used                      no-unused-vars
+  373:17  warning  'evt' is defined but never used                      no-unused-vars
+  410:17  warning  'evt' is defined but never used                      no-unused-vars
+  471:17  warning  'evt' is defined but never used                      no-unused-vars
+  508:17  warning  'evt' is defined but never used                      no-unused-vars
+  527:17  warning  'evt' is defined but never used                      no-unused-vars
+  546:17  warning  'evt' is defined but never used                      no-unused-vars
+  565:17  warning  'evt' is defined but never used                      no-unused-vars
+  602:17  warning  'evt' is defined but never used                      no-unused-vars
+  639:17  warning  'evt' is defined but never used                      no-unused-vars
+  700:17  warning  'evt' is defined but never used                      no-unused-vars
+  761:17  warning  'evt' is defined but never used                      no-unused-vars
+  798:17  warning  'evt' is defined but never used                      no-unused-vars
+  835:17  warning  'evt' is defined but never used                      no-unused-vars
+  854:17  warning  'evt' is defined but never used                      no-unused-vars
+
+✖ 48 problems (0 errors, 48 warnings)
+
